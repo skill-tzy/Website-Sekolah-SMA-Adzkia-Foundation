@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HALAMAN CASIS PPDB TA 2025/2026</title>
+  <link rel="icon" href="asset/logo.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-info">
+        <div class="info-group">
+          <span><img src="asset/icon_telepon.png" alt="Telepon" class="icon-telepon">+6289-6693-20161</span>
+          <span><img src="asset/icon_surat.png" alt="Surat" class="icon-surat">info@adzkiafoundation.sch.id</span>
+        </div>
+        <div onclick="location.href='informasi_pendaftaran.html'" class="cta-box">MAU<br>JADI SISWA?</div>
+    </div>
+  </header>
+
+  <nav class="navbar">
+      <div class="navbar-info">
+        <img src="asset/logo.png" alt="Logo Sekolah" class="logo-sekolah">
+        <ul class="nav-links">
+          <li><a href="beranda.html">Beranda</a></li>
+          <li class="dropdown">
+            <a>Tentang</a>
+            <ul class="dropdown-menu">
+              <li><a href="profil.html">Profil Sekolah</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a>Kurikulum</a>
+            <ul class="dropdown-menu">
+              <li><a href="kegiatan.html">Kegiatan Siswa</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a>PPDB TA 2025/2026</a>
+            <ul class="dropdown-menu">
+              <li><a href="informasi_pendaftaran.html">Informasi</a></li>
+              <li><a href="formulir_pendaftaran.html">Formulir Online</a></li>
+              <li><a href="pengumuman_pendaftaran.html">Pengumuman</a></li>
+            </ul>
+          </li>
+          <li><a href="kontak.html">Kontak</a></li>
+          <li>
+            <button class="search-btn">
+              <img src="asset/search.png" alt="Search" class="search-icon">
+            </button>
+            <input type="text" id="search-input" class="search-input" placeholder="Cari..." style="display: none;">
+          </li>
+        </ul>
+      </div>
+  </nav>
+
+<section class="profil-pembangunan">
+  <div class="profil-pembangunan-background"><img src="asset/formulir.jpg"></div>
+  <div class="profil-pembangunan-overlay"></div>
+  <div class="profil-pembangunan-content">
+    <h2 class="profil-pembangunan-title"> HALAMAN CASIS PPDB TA 2025/2026</br>
+    SMA ADZKIA FOUNDATION</h2>
+  </div>
+</section>
+
+<section class="profil-detail">
+  <div class="profil-detail-container">
+    <div class="hasil-container">
+      <h2>Data Casis</h2>
+      <p class="profil-detail-text">
+      <strong>NIK:</strong> <span id="nik"></span></br>
+      <strong>Nama Mahasiswa:</strong> <span id="nama"></span></br>
+      <strong>Alamat:</strong> <span id="alamat"></span></br>
+      <strong>Tanggal Lahir:</strong> <span id="tanggal_lahir"></span></br>
+      <strong>Jenis Kelamin:</strong> <span id="jenis_kelamin"></span></br>
+      </p>
+      <h2>Data Orang Tua / Wali</h2>
+      <p class="profil-detail-text">
+      <strong>Nama Orang Tua / Wali:</strong> <span id="nama_ortu"></span></br>
+      <strong>Pekerjaan:</strong> <span id="pekerjaan_ortu"></span></br>
+      <strong>Nomor Kontak:</strong> <span id="kontak_ortu"></span></br>
+      </p>
+      <h2>Pilihan Program Studi</h2>
+      <p class="profil-detail-text">
+      <strong>Program Studi:</strong> <span id="program_studi"></span></br>
+      </p>
+      <p class="profil-detail-text"><b>Perhatian!</b> harap <b>periksa kembali</b> seluruh data yang telah Anda isi. Jika terdapat kesalahan atau kendala dalam pengisian, Anda dapat segera menghubungi kami melalui kontak resmi.</br>
+      <p class="profil-detail-text">Setelah semua data diyakini benar, Anda tinggal menunggu pengumuman <b>tahap selanjutnya</b> yang akan diinformasikan secara resmi melalui <b></b> media sosial SMA Adzkia Foundation.</b></br>
+      <button onclick="printProfilDetail()" class="print-button">Cetak</button>
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="footer-Kontak">
+  <div class="footer-contact-container">
+    <div class="footer-contact-column">
+      <h3>Link / Peta Situs</h3>
+      <div class="footer-contact-text">
+        <p onclick="location.href='profil.html'">
+          <img src="asset/icon_pilihan.png" alt="Icon" class="footer-icon"> Visi dan Misi
+        </p>
+        <p onclick="location.href='profil.html'">
+          <img src="asset/icon_pilihan.png" alt="Icon" class="footer-icon"> IB-World School
+        </p>
+        <p onclick="location.href='kontak.html'">
+          <img src="asset/icon_pilihan.png" alt="Icon" class="footer-icon"> FAQ
+        </p>
+        <p onclick="location.href='kontak.html'">
+          <img src="asset/icon_pilihan.png" alt="Icon" class="footer-icon"> Karir
+        </p>
+        <p onclick="location.href='kontak.html'">
+          <img src="asset/icon_pilihan.png" alt="Icon" class="footer-icon"> Blog
+        </p>
+        <p onclick="location.href='kontak.html'">
+          <img src="asset/icon_pilihan.png" alt="Icon" class="footer-icon"> Privasi Policy
+        </p>
+      </div>
+    </div>
+    <div class="footer-contact-column">
+      <h3>Informasi</h3>
+      <div class="footer-contact-text">
+        <p onclick="location.href='https://goo.gl/maps/example'">
+          <img src="asset/icon_pesawat.png" alt="Icon" class="footer-icon"> Jl. Cendrawasih No.4, Boyolali, 57375
+        </p>
+        <p onclick="location.href='tel:+6287687658765'">
+          <img src="asset/icon_telepon.png" alt="Icon" class="footer-icon"> +62876 8765 8765
+        </p>
+        <p onclick="location.href='tel:+6287687658765'">
+          <img src="asset/icon_telepon.png" alt="Icon" class="footer-icon"> +62876 8765 8765
+        </p>
+        <p onclick="location.href='tel:+6287687658765'">
+          <img src="asset/icon_telepon.png" alt="Icon" class="footer-icon"> +62876 8765 8765
+        </p>
+        <p onclick="location.href='mailto:info@adzkiafoundation.sch.id'">
+          <img src="asset/icon_surat.png" alt="Icon" class="footer-icon"> info@adzkiafoundation.sch.id
+        </p>
+        <p onclick="location.href='kontak.html'">
+          <img src="asset/icon_surat.png" alt="Icon" class="footer-icon"> Contact Us
+        </p>
+      </div>
+    </div>
+    <div class="footer-contact-column">
+      <img src="asset/footer.png" alt="Footer Image" class="footer-contact-image">
+    </div>
+  </div>
+</section>
+
+<section class="footer">
+  <p>
+    &copy; Copyright SMA AP 2025. Design and Development by Humas SMA Adzkia Foundation
+  </p>
+</section>
+
+<script>
+  const nik = localStorage.getItem('nik');
+  const nama = localStorage.getItem('nama');
+  const alamat = localStorage.getItem('alamat');
+  const tanggal_lahir = localStorage.getItem('tanggal_lahir');
+  const jenis_kelamin = localStorage.getItem('jenis_kelamin');
+  const nama_ortu = localStorage.getItem('nama_ortu');
+  const pekerjaan_ortu = localStorage.getItem('pekerjaan_ortu');
+  const kontak_ortu = localStorage.getItem('kontak_ortu');
+  const program_studi = localStorage.getItem('program_studi');
+
+  document.getElementById('nik').textContent = nik;
+  document.getElementById('nama').textContent = nama;
+  document.getElementById('alamat').textContent = alamat;
+  document.getElementById('tanggal_lahir').textContent = tanggal_lahir;
+  document.getElementById('jenis_kelamin').textContent = jenis_kelamin;
+  document.getElementById('nama_ortu').textContent = nama_ortu;
+  document.getElementById('pekerjaan_ortu').textContent = pekerjaan_ortu;
+  document.getElementById('kontak_ortu').textContent = kontak_ortu;
+  document.getElementById('program_studi').textContent = program_studi;
+
+  function toggleSearch() {
+    const searchInput = document.getElementById('search-input');
+    if (searchInput.style.display === 'none' || searchInput.style.display === '') {
+      searchInput.style.display = 'block';
+    } else {
+      searchInput.style.display = 'none';
+    }
+  }
+
+  document.querySelector('.search-btn').addEventListener('click', toggleSearch);
+
+  let currentSlide = 0;
+  const slides = document.querySelectorAll('.slider-image');
+  const heroTitle = document.getElementById('hero-title');
+  const heroDesc = document.getElementById('hero-desc');
+  const heroButton = document.getElementById('hero-button');
+
+  function applyAnimation(element, animationClass) {
+    element.classList.remove(animationClass);
+    element.classList.add('active'); 
+    void element.offsetWidth;
+    element.classList.add(animationClass);
+
+    element.addEventListener('animationend', function handler() {
+      element.classList.remove(animationClass);
+      element.removeEventListener('animationend', handler);
+    });
+  }
+
+  function applyTextTransition(element, newText) {
+    element.classList.remove('slide-in-left', 'slide-out-left');
+    element.classList.add('slide-out-left');
+
+    element.addEventListener('animationend', function handler() {
+      element.classList.remove('slide-out-left');
+      element.textContent = newText;
+
+      void element.offsetWidth;
+      applyAnimation(element, 'slide-in-left');
+
+      element.removeEventListener('animationend', handler);
+    });
+  }
+
+  function showSlide(index) {
+    slides.forEach((slide, i) => {
+      slide.classList.remove('active', 'exit');
+      if (i === index) {
+        slide.classList.add('active');
+
+        applyTextTransition(heroTitle, slide.getAttribute('data-title'));
+        applyTextTransition(heroDesc, slide.getAttribute('data-desc'));
+        applyTextTransition(heroButton, 'PENDAFTARAN');
+
+      } else if (i === (index - 1 + slides.length) % slides.length) {
+        slide.classList.add('exit');
+      }
+    });
+  }
+
+  function showFirstSlide(index) {
+    const slide = slides[index];
+    slide.classList.add('active');
+
+    heroTitle.textContent = slide.getAttribute('data-title');
+    heroDesc.textContent = slide.getAttribute('data-desc');
+    heroButton.textContent = 'PENDAFTARAN';
+
+    applyAnimation(heroTitle, 'slide-in-left');
+    applyAnimation(heroDesc, 'slide-in-left');
+    applyAnimation(heroButton, 'slide-in-left');
+  }
+
+  function nextSlide() {
+    currentSlide = (currentSlide + 1) % slides.length;
+    showSlide(currentSlide);
+  }
+
+  showFirstSlide(currentSlide);
+  setInterval(nextSlide, 5000);
+
+  window.addEventListener('scroll', function() {
+  const midWidget = document.querySelector('.mid-widget-floating');
+  const midWidgetPosition = midWidget.getBoundingClientRect().top;
+  
+  if (midWidgetPosition < window.innerHeight) {
+    midWidget.classList.add('visible'); 
+  } else {
+    midWidget.classList.remove('visible'); 
+  }
+});
+
+  function toggleCaption(box) {
+    const expanded = document.querySelector('.fasilitas-box.expanded');
+    if (expanded && expanded !== box) {
+      expanded.classList.remove('expanded');
+    }
+    box.classList.toggle('expanded');
+  }
+
+  function printProfilDetail() {
+    const printContent = document.querySelector('.profil-detail').innerHTML;
+    const originalContent = document.body.innerHTML;
+
+    document.body.innerHTML = `<section class="profil-detail">${printContent}</section>`;
+    window.print();
+    document.body.innerHTML = originalContent;
+    location.reload(); // Reload to restore event listeners
+  }
+</script>
+</body>
+</html>
