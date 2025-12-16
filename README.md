@@ -5,7 +5,7 @@ Download [PDF laporan Project](https://github.com/user-attachments/files/2417965
 Lihat [Implementasi Project](https://adzkiaadi.free.nf/sch_sma)<br>
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/ae7ec5f0-546a-4ed4-9ef8-927331a9d75b" width="500">
+  <img src="https://github.com/user-attachments/assets/ae7ec5f0-546a-4ed4-9ef8-927331a9d75b" width="350">
 </div>
 
 ## 🚀   A. BUATLAH WEB YANG MENGGAMBARKAN PROFILE PENDAFTARAN SISWA / PESERTA DIDIK BARU DI SEBUAH SEKOLAH / LEMBAGA. WEB PROFILE HARUS TERDAPAT UNSUR-UNSUR SEBAGAI BERIKUT : 
