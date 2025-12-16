@@ -4,7 +4,7 @@ Website Sekolah SMA Adzkia Foundation menggunakan HTML, CSS, dan Vanilla JavaScr
 Download [PDF laporan Project](https://github.com/user-attachments/files/24179655/MUHAMMAD.ADZKIA_UTSWEB.docx)<br>
 Lihat [Implementasi Project](https://adzkiaadi.free.nf/sch_sma)<br>
 
-###  A. BUATLAH WEB YANG MENGGAMBARKAN PROFILE PENDAFTARAN SISWA / PESERTA DIDIK BARU DI SEBUAH SEKOLAH / LEMBAGA. WEB PROFILE HARUS TERDAPAT UNSUR-UNSUR SEBAGAI BERIKUT : 
+🚀 ##  A. BUATLAH WEB YANG MENGGAMBARKAN PROFILE PENDAFTARAN SISWA / PESERTA DIDIK BARU DI SEBUAH SEKOLAH / LEMBAGA. WEB PROFILE HARUS TERDAPAT UNSUR-UNSUR SEBAGAI BERIKUT : 
 
 <p align="justify">
 1. Halaman Beranda ( Home )<br>
@@ -44,21 +44,22 @@ Lihat [Implementasi Project](https://adzkiaadi.free.nf/sch_sma)<br>
   <img src="https://user-images.githubusercontent.com/95717485/225231893-e59de44d-0d3e-4e79-971b-a4d494565a74.png" alt="Dicoding AWS">
 </div> -->
 
-### B. STRUKTUR
+🚀 ## B. STRUKTUR
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/3fc2b72e-286a-4718-a6e0-30aeac60d511" width="500">
+  <img src="https://github.com/user-attachments/assets/3fc2b72e-286a-4718-a6e0-30aeac60d511" width="250">
 </div>
 
-### C. HASIL
+🚀 ## C. HASIL
+
+### 1. Halaman Beranda ( Home )
 
 <p align="justify">
-1. Halaman Beranda ( Home )<br>
 Berikut Halaman beranda.html<br>
 </p>
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/58b9a248-5d48-4330-b19a-bbe66b7ce73f" width="500">
+  <img src="https://github.com/user-attachments/assets/58b9a248-5d48-4330-b19a-bbe66b7ce73f">
 </div>
 <div align="center">
   <img src="https://github.com/user-attachments/assets/245ad50a-a827-417c-8ca5-e3303aa4d51b" width="500">
