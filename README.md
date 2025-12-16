@@ -4,38 +4,59 @@ Website Sekolah SMA Adzkia Foundation menggunakan HTML, CSS, dan Vanilla JavaScr
 Download [PDF laporan Project](https://github.com/user-attachments/files/24179655/MUHAMMAD.ADZKIA_UTSWEB.docx)<br>
 Lihat [Implementasi Project](https://adzkiaadi.free.nf/sch_sma)<br>
 
-🚀 ##  A. BUATLAH WEB YANG MENGGAMBARKAN PROFILE PENDAFTARAN SISWA / PESERTA DIDIK BARU DI SEBUAH SEKOLAH / LEMBAGA. WEB PROFILE HARUS TERDAPAT UNSUR-UNSUR SEBAGAI BERIKUT : 
+## 🚀   A. BUATLAH WEB YANG MENGGAMBARKAN PROFILE PENDAFTARAN SISWA / PESERTA DIDIK BARU DI SEBUAH SEKOLAH / LEMBAGA. WEB PROFILE HARUS TERDAPAT UNSUR-UNSUR SEBAGAI BERIKUT : 
 
+### 1. Halaman Beranda ( Home )
 <p align="justify">
-1. Halaman Beranda ( Home )<br>
 - Deskripsi sekolah / Lembaga<br>
 - Link menuju formulir pendaftaran <br>
 - Logo Lembaga pendidikan<br>
-2. Profil Sekolah / Lembaga<br>
+</p>
+
+### 2. Profil Sekolah / Lembaga
+<p align="justify">
 - Sejarah singkat<br>
 - Visi & misi<br>
 - Struktur organisasi<br> 
 - Fasilitas<br>
-3. Informasi Pendaftaran<br> 
+</p>
+
+### 3. Informasi Pendaftaran 
+<p align="justify">
 - Syarat pendaftaran<br>
 - Jadwal pendaftaran<br>
 - Dokumen yg harus disiapkan<br> 
-4. Formulir Pendaftaran Online<br>
+</p>
+
+### 4. Formulir Pendaftaran Online
+<p align="justify">
 - Data dari calon pendaftaran ( NIK, Nama, Alamat dll )<br> 
 - Data orang tua / wali<br>
 - Pilihan program studi<br>
-- Tombol kirim / form submit<br> 
-5. Halaman Pendaftaran Peserta<br>
+- Tombol kirim / form submit<br>
+</p> 
+
+### 5. Halaman Pendaftaran Peserta
+<p align="justify">
 - Hasil form pengisiannya<br>
 - Cetak Bukti pendaftaran<br>
-6. Kontak & Lokasi<br>
+</p>
+
+### 6. Kontak & Lokasi
+<p align="justify">
 - Alamat lengkap sekolah / Lembaga<br> 
 - No. Telpon / WhatsApp<br>
 - Email sekolah / lembaga<br>
-7. Berita & Pengumuman<br>
+</p>
+
+### 7. Berita & Pengumuman
+<p align="justify">
 - Update informasi terkini<br> 
 - Pengumuman hasil yg diterima<br> 
-8. Galeri / Foto Kegiatan<br>
+</p>
+
+### 8. Galeri / Foto Kegiatan
+<p align="justify">
 - Foto-foto profile sekolah / lembaga<br>
 - Foto-foto kegiatannya<br>
 </p>
@@ -44,22 +65,21 @@ Lihat [Implementasi Project](https://adzkiaadi.free.nf/sch_sma)<br>
   <img src="https://user-images.githubusercontent.com/95717485/225231893-e59de44d-0d3e-4e79-971b-a4d494565a74.png" alt="Dicoding AWS">
 </div> -->
 
-🚀 ## B. STRUKTUR
+## 🚀 B. STRUKTUR
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/3fc2b72e-286a-4718-a6e0-30aeac60d511" width="250">
 </div>
 
-🚀 ## C. HASIL
+## 🚀 C. HASIL
 
 ### 1. Halaman Beranda ( Home )
-
 <p align="justify">
 Berikut Halaman beranda.html<br>
 </p>
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/58b9a248-5d48-4330-b19a-bbe66b7ce73f">
+  <img src="https://github.com/user-attachments/assets/58b9a248-5d48-4330-b19a-bbe66b7ce73f" width="750">
 </div>
 <div align="center">
   <img src="https://github.com/user-attachments/assets/245ad50a-a827-417c-8ca5-e3303aa4d51b" width="500">
